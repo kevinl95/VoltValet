@@ -1,0 +1,133 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Deploys an API gateway you can use with VoltValet to receive status information from your EVSE"
+Parameters:
+  MyEmail:
+    Description: Email for station notifications
+    Type: String
+    AllowedPattern: '[^@]+@[^@]+\.[^@]+'
+  ChargerName:
+    Description: Name of your charger
+    Type: String
+Outputs:
+  ConnectURL:
+    Description: URL to paste into your code for the AVR-IoT Cellular Mini.
+    Value: !Sub "https://${ApiGatewayRestApi}.execute-api.us-east-2.amazonaws.com/prod/charger"
+  TopicARN:
+    Description: ARN to paste into your code for the AVR-IoT Cellular Mini.
+    Value: !Sub SNSTopic
+Resources:
+    IAMRole:
+        Type: "AWS::IAM::Role"
+        Properties:
+            Path: "/"
+            RoleName: !Sub "${SNSTopic.TopicName}PublishRole"
+            AssumeRolePolicyDocument: "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"apigateway.amazonaws.com\",\"sns.amazonaws.com\"]},\"Action\":\"sts:AssumeRole\"}]}"
+            MaxSessionDuration: 3600
+            ManagedPolicyArns: 
+              - !Ref IAMManagedPolicy
+              - "arn:aws:iam::aws:policy/service-role/AmazonSNSRole"
+            Description: "Allows SNS to call CloudWatch Logs on your behalf."
+
+    IAMManagedPolicy:
+        Type: "AWS::IAM::ManagedPolicy"
+        Properties:
+            ManagedPolicyName: "VoltValetPublishPolicy"
+            Path: "/"
+            PolicyDocument: |
+                {
+                	"Version": "2012-10-17",
+                	"Statement": [
+                		{
+                			"Sid": "VisualEditor0",
+                			"Effect": "Allow",
+                			"Action": "sns:Publish",
+                			"Resource": "*"
+                		}
+                	]
+                }
+
+    SNSTopic:
+        Type: "AWS::SNS::Topic"
+        Properties:
+            DisplayName: !Ref ChargerName
+            TopicName: !Ref ChargerName
+
+    SNSTopicPolicy:
+        Type: "AWS::SNS::TopicPolicy"
+        Properties:
+            PolicyDocument: !Sub "{\"Version\":\"2008-10-17\",\"Id\":\"__default_policy_ID\",\"Statement\":[{\"Sid\":\"__default_statement_ID\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"*\"},\"Action\":[\"SNS:GetTopicAttributes\",\"SNS:SetTopicAttributes\",\"SNS:AddPermission\",\"SNS:RemovePermission\",\"SNS:DeleteTopic\",\"SNS:Subscribe\",\"SNS:ListSubscriptionsByTopic\",\"SNS:Publish\"],\"Resource\":\"${SNSTopic}\",\"Condition\":{\"StringEquals\":{\"AWS:SourceOwner\":\"${AWS::AccountId}\"}}}]}"
+            Topics: 
+              - !Ref SNSTopic
+
+    SNSSubscription:
+        Type: "AWS::SNS::Subscription"
+        Properties:
+            TopicArn: !Ref SNSTopic
+            Endpoint: !Ref MyEmail
+            Protocol: "email"
+            Region: "us-east-2"
+
+    ApiGatewayRestApi:
+        Type: "AWS::ApiGateway::RestApi"
+        Properties:
+            Name: "VoltValet"
+            ApiKeySourceType: "HEADER"
+            EndpointConfiguration: 
+                Types: 
+                  - "EDGE"
+
+    ApiGatewayResource:
+        Type: "AWS::ApiGateway::Resource"
+        Properties:
+            RestApiId: !Ref ApiGatewayRestApi
+            PathPart: "charger"
+            ParentId: !GetAtt ApiGatewayRestApi.RootResourceId
+
+    ApiGatewayMethod:
+        Type: "AWS::ApiGateway::Method"
+        Properties:
+            RestApiId: !Ref ApiGatewayRestApi
+            ResourceId: !Ref ApiGatewayResource
+            HttpMethod: "POST"
+            AuthorizationType: "NONE"
+            ApiKeyRequired: false
+            RequestParameters: 
+                "method.request.querystring.message": true
+                "method.request.querystring.topic": true
+            MethodResponses: 
+              - 
+                ResponseModels: 
+                    "application/json": "Empty"
+                StatusCode: "200"
+            Integration: 
+                CacheNamespace: !Ref ApiGatewayResource
+                Credentials: !GetAtt IAMRole.Arn
+                IntegrationHttpMethod: "POST"
+                IntegrationResponses: 
+                  - 
+                    ResponseTemplates: {}
+                    StatusCode: "200"
+                PassthroughBehavior: "WHEN_NO_MATCH"
+                RequestParameters: 
+                    "integration.request.querystring.Message": "method.request.querystring.message"
+                    "integration.request.querystring.TopicArn": "method.request.querystring.topic"
+                TimeoutInMillis: 29000
+                Type: "AWS"
+                Uri: "arn:aws:apigateway:us-east-2:sns:action/Publish"
+
+    ApiGatewayDeployment:
+        Type: "AWS::ApiGateway::Deployment"
+        DependsOn: ApiGatewayMethod
+        Properties:
+            RestApiId: !Ref ApiGatewayRestApi
+
+    ApiGatewayStage:
+        Type: "AWS::ApiGateway::Stage"
+        Properties:
+            StageName: "prod"
+            DeploymentId: !Ref ApiGatewayDeployment
+            RestApiId: !Ref ApiGatewayRestApi
+            CacheClusterEnabled: false
+            CacheClusterSize: "0.5"
+            TracingEnabled: false
+
