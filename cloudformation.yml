@@ -14,7 +14,7 @@ Outputs:
     Value: !Sub "https://${ApiGatewayRestApi}.execute-api.us-east-2.amazonaws.com/prod/charger"
   TopicARN:
     Description: ARN to paste into your code for the AVR-IoT Cellular Mini.
-    Value: !Sub SNSTopic
+    Value: !GetAtt SNSTopic.Arn
 Resources:
     IAMRole:
         Type: "AWS::IAM::Role"
