@@ -94,6 +94,8 @@ Resources:
             RequestParameters: 
                 "method.request.querystring.message": true
                 "method.request.querystring.topic": true
+            RequestModels: 
+                "application/json": !Ref ApiGatewayModel
             MethodResponses: 
               - 
                 ResponseModels: 
@@ -109,11 +111,17 @@ Resources:
                     StatusCode: "200"
                 PassthroughBehavior: "WHEN_NO_MATCH"
                 RequestParameters: 
+                    "integration.request.header.Content-Type": "'application/x-www-form-urlencoded'"
                     "integration.request.querystring.Message": "method.request.querystring.message"
                     "integration.request.querystring.TopicArn": "method.request.querystring.topic"
+                RequestTemplates: 
+                    "application/json": !Sub |
+                        #set($topic="${SNSTopic}")
+                        #set($msg=$input.path('$.message'))
+                        Action=Publish&TopicArn=$util.urlEncode($topic)&Message=$util.urlEncode($msg)
                 TimeoutInMillis: 29000
                 Type: "AWS"
-                Uri: "arn:aws:apigateway:us-east-2:sns:action/Publish"
+                Uri: !Sub "arn:aws:apigateway:${AWS::Region}:sns:path/arn:aws:apigateway:us-east-2:sns:path//*"
 
     ApiGatewayDeployment:
         Type: "AWS::ApiGateway::Deployment"
@@ -131,3 +139,18 @@ Resources:
             CacheClusterSize: "0.5"
             TracingEnabled: false
 
+    ApiGatewayModel:
+        Type: "AWS::ApiGateway::Model"
+        Properties:
+            RestApiId: !Ref ApiGatewayRestApi
+            Name: "ChargerPublishModel"
+            Schema: |
+                {
+                    "$schema": "http://json-schema.org/draft-04/schema#",
+                    "title": "ChargerPublishModel",
+                    "type": "object",
+                    "properties": {
+                        "message": {"type": "string"}
+                    }
+                }
+            ContentType: "application/json"
