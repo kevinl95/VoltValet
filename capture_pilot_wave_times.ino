@@ -1,6 +1,5 @@
 /**
- * @brief This example demonstrates how to retrieve the unix time from a NTP
- * server.
+ * @brief This code shows how to read the J1772 pilot wave PWM waveform
  */
 
 #include <Arduino.h>
