@@ -1,0 +1,534 @@
+
+
+Symbols from /home/mrmemory/.var/app/cc.arduino.IDE2/cache/arduino/sketches/CE084DAF20DA8712C87201E265DE9C13/anomalydetector.ino.elf:
+
+Name                  Value   Class        Type         Size     Line  Section
+
+__heap_end          |00000000|   W  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_ORIGIN__|00000000|   W  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__tmp_reg__         |00000000|   a  |            NOTYPE|        |     |*ABS*
+__vector_default    |00000000|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:61
+__vectors           |00000000|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:61
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__zero_reg__        |00000001|   a  |            NOTYPE|        |     |*ABS*
+__FUSE_REGION_LENGTH__|00000010|   A  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__CCP__             |00000034|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__RAMPZ__           |0000003b|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_L__            |0000003d|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SP_H__            |0000003e|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__SREG__            |0000003f|   a  |            NOTYPE|        |     |*ABS*
+__c.2230            |000000f4|   t  |            OBJECT|00000004|     |.text
+__trampolines_end   |000000f4|   T  |            NOTYPE|        |     |.text
+__trampolines_start |000000f4|   T  |            NOTYPE|        |     |.text
+__c.2228            |000000f8|   t  |            OBJECT|00000004|     |.text
+__c.2370            |000001f6|   t  |            OBJECT|0000000c|     |.text
+__EEPROM_REGION_LENGTH__|00000200|   A  |            NOTYPE|        |     |*ABS*
+DEBUG_LOG_LEVEL     |00000202|   t  |            OBJECT|00000009|     |.text
+INFO_LOG_LEVEL      |0000020b|   t  |            OBJECT|00000008|     |.text
+WARN_LOG_LEVEL      |00000213|   t  |            OBJECT|00000008|     |.text
+ERROR_LOG_LEVEL     |0000021b|   t  |            OBJECT|00000009|     |.text
+SequansControllerClass::begin()::__c|00000224|   t  |            OBJECT|00000033|     |.text
+SequansControllerClass::begin()::__c|00000257|   t  |            OBJECT|00000009|     |.text
+_ZZN8LteClass5beginEmbE3__c__21_|00000260|   t  |            OBJECT|0000005d|     |.text
+_ZZN8LteClass5beginEmbE3__c__20_|000002bd|   t  |            OBJECT|0000000e|     |.text
+_ZZN8LteClass5beginEmbE3__c__19_|000002cb|   t  |            OBJECT|00000007|     |.text
+_ZZN8LteClass5beginEmbE3__c__18_|000002d2|   t  |            OBJECT|0000003e|     |.text
+_ZZN8LteClass5beginEmbE3__c__17_|00000310|   t  |            OBJECT|00000034|     |.text
+_ZZN8LteClass5beginEmbE3__c__16_|00000344|   t  |            OBJECT|0000004b|     |.text
+_ZZN8LteClass5beginEmbE3__c__15_|0000038f|   t  |            OBJECT|00000023|     |.text
+_ZZN8LteClass5beginEmbE3__c__14_|000003b2|   t  |            OBJECT|00000029|     |.text
+_ZZN8LteClass5beginEmbE3__c__13_|000003db|   t  |            OBJECT|00000009|     |.text
+_ZZN8LteClass5beginEmbE3__c__10_|000003e4|   t  |            OBJECT|0000008a|     |.text
+__LOCK_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+__USER_SIGNATURE_REGION_LENGTH__|00000400|   A  |            NOTYPE|        |     |*ABS*
+_ZZN8LteClass5beginEmbE3__c__11_|0000046e|   t  |            OBJECT|0000000d|     |.text
+LteClass::begin(unsigned long, bool)::__c|0000047b|   t  |            OBJECT|00000002|     |.text
+LteClass::begin(unsigned long, bool)::__c|0000047d|   t  |            OBJECT|00000017|     |.text
+LteClass::begin(unsigned long, bool)::__c|00000494|   t  |            OBJECT|00000023|     |.text
+LteClass::begin(unsigned long, bool)::__c|000004b7|   t  |            OBJECT|00000006|     |.text
+LteClass::begin(unsigned long, bool)::__c|000004bd|   t  |            OBJECT|0000001f|     |.text
+LteClass::begin(unsigned long, bool)::__c|000004dc|   t  |            OBJECT|0000002a|     |.text
+LteClass::begin(unsigned long, bool)::__c|00000506|   t  |            OBJECT|00000009|     |.text
+LteClass::begin(unsigned long, bool)::__c|0000050f|   t  |            OBJECT|0000000a|     |.text
+LteClass::begin(unsigned long, bool)::__c|00000519|   t  |            OBJECT|0000000b|     |.text
+LteClass::begin(unsigned long, bool)::__c|00000524|   t  |            OBJECT|0000000a|     |.text
+LteClass::begin(unsigned long, bool)::__c|0000052e|   t  |            OBJECT|0000000a|     |.text
+LteClass::getOperator()::__c|00000538|   t  |            OBJECT|0000000e|     |.text
+LteClass::getOperator()::__c|00000546|   t  |            OBJECT|00000026|     |.text
+LteClass::getOperator()::__c|0000056c|   t  |            OBJECT|00000009|     |.text
+LteClass::getOperator()::__c|00000575|   t  |            OBJECT|0000000c|     |.text
+HttpClientClass::configure(char const*, unsigned int, bool)::__c|00000581|   t  |            OBJECT|00000062|     |.text
+SecurityProfileClass::profileExists(unsigned char)::__c|000005e3|   t  |            OBJECT|00000021|     |.text
+SecurityProfileClass::profileExists(unsigned char)::__c|00000604|   t  |            OBJECT|0000000c|     |.text
+HttpClientClass::configure(char const*, unsigned int, bool)::__c|00000610|   t  |            OBJECT|0000002a|     |.text
+HttpClientClass::readBody(char*, unsigned long)::__c|0000063a|   t  |            OBJECT|00000032|     |.text
+HttpClientClass::readBody(char*, unsigned long)::__c|0000066c|   t  |            OBJECT|00000014|     |.text
+HttpClientClass::readBody(char*, unsigned long)::__c|00000680|   t  |            OBJECT|00000003|     |.text
+setup::__c          |00000683|   t  |            OBJECT|0000000b|     |.text
+setup::__c          |0000068e|   t  |            OBJECT|0000002d|     |.text
+setup::__c          |000006bb|   t  |            OBJECT|0000002e|     |.text
+setup::__c          |000006e9|   t  |            OBJECT|0000001c|     |.text
+setup::__c          |00000705|   t  |            OBJECT|0000001e|     |.text
+loop::__c           |00000723|   t  |            OBJECT|0000002d|     |.text
+loop::__c           |00000750|   t  |            OBJECT|0000002d|     |.text
+loop::__c           |0000077d|   t  |            OBJECT|0000002d|     |.text
+CEREG_CALLBACK      |000007aa|   t  |            OBJECT|00000006|     |.text
+AT_DISCONNECT       |000007b0|   t  |            OBJECT|0000000a|     |.text
+TIMEZONE_CALLBACK   |000007ba|   t  |            OBJECT|00000005|     |.text
+MQTT_DISCONNECT     |000007bf|   t  |            OBJECT|00000018|     |.text
+MQTT_ON_DISCONNECT_URC|000007d7|   t  |            OBJECT|00000015|     |.text
+MQTT_ON_MESSAGE_URC |000007ec|   t  |            OBJECT|00000012|     |.text
+waitForResponse(unsigned long)::__c|000007fe|   t  |            OBJECT|0000006c|     |.text
+waitForResponse(unsigned long)::__c|0000086a|   t  |            OBJECT|00000056|     |.text
+HTTP_RING_URC       |000008c0|   t  |            OBJECT|0000000c|     |.text
+HTTP_SHUTDOWN_URC   |000008cc|   t  |            OBJECT|0000000a|     |.text
+sendData(char const*, unsigned char const*, unsigned long, unsigned char, char const*, char const*, unsigned long)::__c|000008d6|   t  |            OBJECT|000000a3|     |.text
+sendData(char const*, unsigned char const*, unsigned long, unsigned char, char const*, char const*, unsigned long)::__c|00000979|   t  |            OBJECT|00000028|     |.text
+sendData(char const*, unsigned char const*, unsigned long, unsigned char, char const*, char const*, unsigned long)::__c|000009a1|   t  |            OBJECT|00000026|     |.text
+sendData(char const*, unsigned char const*, unsigned long, unsigned char, char const*, char const*, unsigned long)::__c|000009c7|   t  |            OBJECT|00000003|     |.text
+HTTP_CONTENT_TYPE_TEXT_PLAIN|000009ca|   t  |            OBJECT|00000002|     |.text
+HTTP_CONTENT_TYPE_APPLICATION_APPLICATION_JSON|000009cc|   t  |            OBJECT|00000002|     |.text
+HTTP_CONTENT_TYPE_APPLICATION_MULTIPART_FORM_DATA|000009ce|   t  |            OBJECT|00000002|     |.text
+HTTP_CONTENT_TYPE_APPLICATION_OCTET_STREAM|000009d0|   t  |            OBJECT|00000002|     |.text
+SequansControllerClass::registerCallback(char const*, void (*)(char*), bool, bool)::__c|000009d2|   t  |            OBJECT|0000003a|     |.text
+SequansControllerClass::registerCallback(char const*, void (*)(char*), bool, bool)::__c|00000a0c|   t  |            OBJECT|00000048|     |.text
+SequansControllerClass::registerCallback(char const*, void (*)(char*), bool, bool)::__c|00000a54|   t  |            OBJECT|00000003|     |.text
+SequansControllerClass::registerCallback(char const*, void (*)(char*), bool, bool)::__c|00000a57|   t  |            OBJECT|00000003|     |.text
+SequansControllerClass::registerCallback(char const*, void (*)(char*), bool, bool)::__c|00000a5a|   t  |            OBJECT|0000001b|     |.text
+SequansControllerClass::unregisterCallback(char const*, bool)::__c|00000a75|   t  |            OBJECT|00000048|     |.text
+SequansControllerClass::unregisterCallback(char const*, bool)::__c|00000abd|   t  |            OBJECT|00000003|     |.text
+SequansControllerClass::unregisterCallback(char const*, bool)::__c|00000ac0|   t  |            OBJECT|0000001e|     |.text
+SequansControllerClass::responseResultToString(ResponseResult, char*)::__c|00000ade|   t  |            OBJECT|00000005|     |.text
+SequansControllerClass::responseResultToString(ResponseResult, char*)::__c|00000ae3|   t  |            OBJECT|00000013|     |.text
+SequansControllerClass::responseResultToString(ResponseResult, char*)::__c|00000af6|   t  |            OBJECT|00000012|     |.text
+SequansControllerClass::responseResultToString(ResponseResult, char*)::__c|00000b08|   t  |            OBJECT|00000008|     |.text
+SequansControllerClass::responseResultToString(ResponseResult, char*)::__c|00000b10|   t  |            OBJECT|00000010|     |.text
+SequansControllerClass::responseResultToString(ResponseResult, char*)::__c|00000b20|   t  |            OBJECT|00000006|     |.text
+SequansControllerClass::responseResultToString(ResponseResult, char*)::__c|00000b26|   t  |            OBJECT|00000003|     |.text
+SequansControllerClass::writeCommand(char const*, char*, unsigned int, bool, void*)::__c|00000b29|   t  |            OBJECT|00000009|     |.text
+SequansControllerClass::writeCommand(char const*, char*, unsigned int, bool, void*)::__c|00000b32|   t  |            OBJECT|00000078|     |.text
+SequansControllerClass::writeCommand(char const*, char*, unsigned int, bool, void*)::__c|00000baa|   t  |            OBJECT|00000001|     |.text
+SequansControllerClass::writeCommand(char const*, char*, unsigned int, bool, void*)::__c|00000bab|   t  |            OBJECT|00000015|     |.text
+SequansControllerClass::writeString(char const*, bool, bool, void*)::__c|00000bc0|   t  |            OBJECT|00000003|     |.text
+SequansControllerClass::writeString(char const*, bool, bool, void*)::__c|00000bc3|   t  |            OBJECT|00000011|     |.text
+SequansControllerClass::readResponse(char*, unsigned int)::__c|00000bd4|   t  |            OBJECT|0000000a|     |.text
+SequansControllerClass::readResponse(char*, unsigned int)::__c|00000bde|   t  |            OBJECT|00000007|     |.text
+NONE_LOG_LEVEL      |00000be5|   t  |            OBJECT|00000001|     |.text
+_usart3_pins        |00000be6|   t  |            OBJECT|00000009|     |.text
+__ctors_start       |00000bf0|   T  |            NOTYPE|        |     |.text
+__ctors_end         |00000bf2|   T  |            NOTYPE|        |     |.text
+__dtors_start       |00000bf2|   T  |            NOTYPE|        |     |.text
+__dtors_end         |00000bf4|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+__init              |00000bf4|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:230
+_initThreeStuff()   |00000c00|   T  |              FUNC|00000028|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/main.cpp:183
+__do_clear_bss      |00000c28|   T  |            NOTYPE|00000010|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+.do_clear_bss_loop  |00000c30|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+.do_clear_bss_start |00000c32|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+__do_copy_data      |00000c38|   T  |            NOTYPE|0000001a|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2373
+__do_global_ctors   |00000c52|   T  |            NOTYPE|00000016|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2466
+__bad_interrupt     |00000c70|   T  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_1          |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_10         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_11         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_12         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_13         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_14         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_15         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_16         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_17         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_19         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_2          |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_20         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_21         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_22         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_23         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_25         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_26         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_27         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_28         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_29         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_3          |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_34         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_36         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_37         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_38         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_39         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_4          |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_40         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_41         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_43         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_44         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_47         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_48         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_49         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_5          |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_50         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_51         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_52         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_56         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_57         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_58         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_59         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_60         |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_7          |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+__vector_9          |00000c70|   W  |            NOTYPE|        |     |.text	../../../../crt1/gcrt1.S:209
+fdev_putchar(char, __file*)|00000c72|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:44
+micros              |00000c90|   t  |              FUNC|0000008a|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring.c:440
+delay               |00000d1a|   t  |              FUNC|00000046|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring.c:1100
+Print::print(__FlashStringHelper const*)|00000d60|   t  |              FUNC|00000048|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring.c:1112
+Print::write(unsigned char const*, unsigned int)|00000da8|   t  |              FUNC|0000005a|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/api/Print.cpp:60
+detachInterrupt.part.1|00000e02|   t  |              FUNC|0000006a|     |.text
+HardwareSerial::availableForWrite()|00000e6c|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:332
+HardwareSerial::read()|00000e8a|   t  |              FUNC|00000028|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:735
+HardwareSerial::peek()|00000eb2|   t  |              FUNC|0000001c|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:721
+HardwareSerial::available()|00000ece|   t  |              FUNC|00000018|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:710
+HardwareSerial::_poll_tx_data_empty()|00000ee6|   t  |              FUNC|0000003c|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:702
+_poll_dre_done      |00000f20|   t  |            NOTYPE|        |     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:466
+HardwareSerial::write(unsigned char)|00000f22|   t  |              FUNC|00000098|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:475
+HardwareSerial::flush()|00000fba|   t  |              FUNC|00000028|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:820
+popSleep            |00000fe2|   t  |              FUNC|0000001c|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/twi.c:676
+TWI_HandleSlaveIRQ  |00000ffe|   t  |              FUNC|0000010a|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/twi.c:513
+TwoWire::flush()    |00001108|   t  |              FUNC|0000001a|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/twi.c:562
+TwoWire::peek()     |00001122|   t  |              FUNC|00000028|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:748
+TwoWire::read()     |0000114a|   t  |              FUNC|00000026|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:735
+TwoWire::available()|00001170|   t  |              FUNC|0000000c|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:665
+TwoWire::write(unsigned char)|0000117c|   t  |              FUNC|00000024|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:618
+TwoWire::write(unsigned char const*, unsigned int)|000011a0|   t  |              FUNC|00000046|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:564
+Print::availableForWrite()|000011e6|   t  |              FUNC|00000006|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:587
+KNNClassifier::~KNNClassifier()|000011ec|   t  |              FUNC|0000003e|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/api/Print.h:65
+KNNClassifier::~KNNClassifier()|000011ec|   t  |              FUNC|0000003e|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/api/Print.h:65
+TimeoutTimer::hasTimedOut() const|0000122a|   t  |              FUNC|00000048|     |.text	/home/mrmemory/Arduino/libraries/Arduino_KNN/src/KNNClassifier.cpp:36
+TimeoutTimer::TimeoutTimer(unsigned long)|00001272|   t  |              FUNC|0000002a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/timeout_timer.cpp:11
+TimeoutTimer::TimeoutTimer(unsigned long)|00001272|   t  |              FUNC|0000002a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/timeout_timer.cpp:11
+ctsUpdate()         |0000129c|   t  |              FUNC|00000024|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/timeout_timer.cpp:7
+rtsUpdate()         |000012c0|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:278
+SequansControllerClass::readByte() [clone .constprop.78]|000012de|   t  |              FUNC|00000050|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:261
+SequansControllerClass::clearReceiveBuffer() [clone .constprop.63]|0000132e|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:602
+CTSInterrupt()      |0000134c|   t  |              FUNC|00000020|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:597
+timezoneCallback(char*)|0000136c|   t  |              FUNC|00000008|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:216
+LogClass::printf(LogLevel, __FlashStringHelper const*, void*) [clone .constprop.80]|00001374|   t  |              FUNC|00000092|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/lte.cpp:80
+LogClass::infof(__FlashStringHelper const*, ...) [clone .constprop.79]|00001406|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:20
+LogClass::rawf(__FlashStringHelper const*, ...) [clone .constprop.73]|00001424|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:233
+LogClass::debugf(__FlashStringHelper const*, ...) [clone .constprop.67]|00001442|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:260
+LogClass::errorf(__FlashStringHelper const*, ...) [clone .constprop.57]|00001460|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:164
+LogClass::warnf(__FlashStringHelper const*, ...) [clone .constprop.53]|0000147e|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:196
+appendDataToTransmitBuffer(char, __file*)|0000149c|   t  |              FUNC|000000e2|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:201
+SequansControllerClass::readResponse(char*, unsigned int) [clone .constprop.77]|0000157e|   t  |              FUNC|0000015c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:477
+SequansControllerClass::writeString(__FlashStringHelper const*, bool, ...) [clone .constprop.65]|000016da|   t  |              FUNC|000000aa|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:896
+Print::write(char const*) [clone .part.2]|00001784|   t  |              FUNC|0000001e|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/api/Print.h:52
+Print::println(char const*)|000017a2|   t  |              FUNC|0000002e|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/api/Print.cpp:133
+LogClass::raw(String) [clone .constprop.36]|000017d0|   t  |              FUNC|0000003a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:273
+LogClass::raw(char const*) [clone .constprop.82]|0000180a|   t  |              FUNC|00000036|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:271
+Print::println(__FlashStringHelper const*)|00001840|   t  |              FUNC|00000024|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/api/Print.cpp:113
+LogClass::error(__FlashStringHelper const*) [clone .constprop.74]|00001864|   t  |              FUNC|00000038|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:149
+SequansControllerClass::writeCommand(__FlashStringHelper const*, char*, unsigned int, ...) [clone .constprop.61]|0000189c|   t  |              FUNC|00000188|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:807
+_pinconfigure(unsigned char, unsigned int)|00001a24|   t  |              FUNC|00000076|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+digitalRead         |00001a9a|   t  |              FUNC|00000036|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring_digital.c:320
+digitalWrite        |00001ad0|   t  |              FUNC|000001ba|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring_digital.c:209
+LedCtrlClass::off(Led, bool) [clone .constprop.58]|00001c8a|   t  |              FUNC|00000018|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+SequansControllerClass::end() [clone .constprop.28]|00001ca2|   t  |              FUNC|0000004e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+waitForResponse(unsigned long)::{lambda()#1}::_FUN()|00001cf0|   t  |              FUNC|0000000e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+SequansControllerClass::unregisterCallback(__FlashStringHelper const*) [clone .constprop.55]|00001cfe|   t  |              FUNC|000000ce|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+MqttClientClass::end() [clone .constprop.26]|00001dcc|   t  |              FUNC|00000052|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+connectionStatus(char*)|00001e1e|   t  |              FUNC|0000002e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+LteClass::end() [clone .constprop.24]|00001e4c|   t  |              FUNC|0000007a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+SequansControllerClass::extractValueFromCommandResponse(char*, unsigned char, char*, unsigned int, char) [clone .constprop.54]|00001ec6|   t  |              FUNC|00000138|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+SequansControllerClass::registerCallback(char const*, void (*)(char*), bool, bool) [clone .constprop.50]|00001ffe|   t  |              FUNC|00000194|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+waitForUrcCallback(char*)|00002192|   t  |              FUNC|0000001a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+SequansControllerClass::waitForURC(char const*, char*, unsigned int, unsigned long, void (*)(), unsigned long, bool) [clone .constprop.47]|000021ac|   t  |              FUNC|0000010e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+HttpClientClass::post(char const*, char const*, char const*, HttpClientClass::ContentType, unsigned long) [clone .constprop.39]|000022ba|   t  |              FUNC|00000414|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+httpShutdownCallback(char*)|000026ce|   t  |              FUNC|0000005a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+KNNClassifier::addExample(float const*, int) [clone .constprop.33]|00002728|   t  |              FUNC|000000ae|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+LogClass::rawf(char const*, ...) [clone .constprop.21]|000027d6|   t  |              FUNC|00000060|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+KNNClassifier::classify(float const*, int) [clone .constprop.9]|00002836|   t  |              FUNC|0000028e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+KNNClassifier::~KNNClassifier()|00002ac4|   t  |              FUNC|00000014|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+KNNNode::~KNNNode() |00002ad8|   t  |              FUNC|00000018|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+KNNNode::~KNNNode() |00002ad8|   t  |              FUNC|00000018|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+KNNNode::~KNNNode() |00002af0|   t  |              FUNC|00000012|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+String::reserve(unsigned int)|00002b02|   t  |              FUNC|00000050|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+String::copy(char const*, unsigned int)|00002b52|   t  |              FUNC|00000054|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+String::String(char const*)|00002ba6|   t  |              FUNC|00000020|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+String::String(char const*)|00002ba6|   t  |              FUNC|00000020|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+setup               |00002bc6|   t  |              FUNC|00001016|     |.text	/home/mrmemory/Documents/VoltValet/anomalydetector/anomalydetector.ino:27
+__vector_31         |00003bdc|   T  |              FUNC|00000038|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring.c:134
+__vector_35         |00003c14|   T  |              FUNC|00000006|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:432
+__vector_46         |00003c1a|   T  |              FUNC|00000006|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:418
+__vector_24         |00003c20|   T  |              FUNC|00000006|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:404
+__vector_30         |00003c26|   T  |              FUNC|00000006|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:390
+__vector_45         |00003c2c|   T  |              FUNC|00000006|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:376
+__vector_8          |00003c32|   T  |              FUNC|00000006|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:363
+AttachedISR         |00003c38|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+isrBody             |00003c38|   T  |              FUNC|00000096|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:147
+AIntLoop            |00003c82|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+AIntEnd             |00003c98|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__vector_54         |00003cce|   T  |              FUNC|0000000c|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART3.cpp:90
+__vector_53         |00003cda|   T  |              FUNC|0000000c|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART3.cpp:67
+__vector_55         |00003ce6|   T  |              FUNC|0000000a|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART3.cpp:31
+_do_dre             |00003cf0|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+_do_dre()           |00003cf0|   T  |              FUNC|0000005e|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:304
+_poll_dre           |00003d00|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+_done_dre_irq       |00003d2e|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+_do_rxc             |00003d4e|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+_do_rxc()           |00003d4e|   T  |              FUNC|00000060|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:174
+_end_rxc            |00003d92|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+_buff_full_rxc      |00003daa|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+_do_txc             |00003dae|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+_do_txc()           |00003dae|   T  |              FUNC|00000032|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART.cpp:91
+_txc_flush_rx       |00003dc0|   t  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__vector_42         |00003de0|   T  |              FUNC|00000054|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:986
+__vector_18         |00003e34|   T  |              FUNC|00000054|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:977
+__vector_33         |00003e88|   T  |              FUNC|0000007c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:425
+__vector_32         |00003f04|   T  |              FUNC|00000316|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:283
+__DATA_REGION_LENGTH__|00004000|   A  |            NOTYPE|        |     |*ABS*
+__vector_6          |0000421a|   T  |              FUNC|00000022|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/low_power.cpp:94
+countPulseASM       |0000423c|   T  |            NOTYPE|        |     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring_pulse.S:70
+vfprintf            |000042c6|   T  |              FUNC|000006ce|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+LogClass::info(__FlashStringHelper const*) [clone .constprop.23]|00004994|   t  |              FUNC|0000003c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+global constructors keyed to 65535_0_anomalydetector.ino.cpp.o.9673|000049d0|   t  |              FUNC|0000014e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+main                |00004b1e|   T  |              FUNC|000003fc|     |.text	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/main.cpp:84
+_GLOBAL__sub_D_pin  |00004f1a|   t  |              FUNC|00000008|     |.text
+atoi                |00004f22|   T  |              FUNC|0000003a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__ftoa_engine       |00004f5c|   T  |              FUNC|000001b0|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+memcmp_P            |0000510c|   T  |              FUNC|0000001a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strcmp_P            |00005126|   T  |              FUNC|00000012|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strcpy_P            |00005138|   T  |              FUNC|0000000e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__strlen_P          |00005146|   T  |              FUNC|00000012|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strncmp_P           |00005158|   T  |              FUNC|0000001c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strnlen_P           |00005174|   T  |              FUNC|00000016|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strstr_P            |0000518a|   T  |              FUNC|00000034|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strtok              |000051be|   T  |              FUNC|00000006|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strnlen             |000051c4|   T  |              FUNC|00000016|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strtok_r            |000051da|   T  |              FUNC|0000004e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__itoa_ncheck       |00005228|   T  |              FUNC|00000014|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__mulhi_const_10    |0000523c|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__utoa_ncheck       |0000524c|   T  |              FUNC|00000032|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__utoa_common       |0000524e|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+fputc               |0000527e|   T  |              FUNC|00000060|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+vfprintf_P          |000052de|   T  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__ultoa_invert      |000052fc|   T  |              FUNC|000000bc|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+isspace             |000053b8|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strrev              |000053c8|   T  |              FUNC|00000020|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__cmpsf2            |000053e8|   T  |              FUNC|00000008|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__eqsf2             |000053e8|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__lesf2             |000053e8|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__ltsf2             |000053e8|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__nesf2             |000053e8|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__floatunsisf       |000053f0|   T  |              FUNC|0000007a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__floatsisf         |000053f4|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_cmp            |0000546a|   T  |              FUNC|00000048|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__mulsf3            |000054b2|   T  |              FUNC|00000004|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__mulsf3x           |000054ca|   T  |              FUNC|000000d2|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__mulsf3_pse        |000054ce|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__ctype_isfalse     |00005578|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__ctype_istrue      |0000557c|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_inf            |0000557e|   T  |              FUNC|0000000c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_nan            |0000558a|   T  |              FUNC|00000006|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_pscA           |00005590|   T  |              FUNC|0000000e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_pscB           |0000559e|   T  |              FUNC|0000000e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_round          |000055ac|   T  |              FUNC|00000022|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_split3         |000055ce|   T  |              FUNC|00000044|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_splitA         |000055de|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_zero           |00005612|   T  |              FUNC|0000000e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_szero          |00005614|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__muluhisi3         |00005620|   T  |            NOTYPE|00000014|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:626
+__umulhisi3         |00005634|   T  |            NOTYPE|0000001e|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:564
+__subsf3            |00005652|   T  |              FUNC|0000000a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__addsf3            |00005654|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__addsf3x           |00005676|   T  |              FUNC|000000cc|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+sqrt                |00005724|   T  |              FUNC|0000008c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+sqrtf               |00005724|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_mpack          |000057a0|   T  |              FUNC|0000001c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_mpack_finite   |000057a4|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__fp_norm2          |000057bc|   T  |              FUNC|0000000e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__udivmodsi4        |000057ca|   T  |            NOTYPE|00000044|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1638
+__udivmodsi4_loop   |000057d6|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1646
+__udivmodsi4_ep     |000057f0|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:1660
+__tablejump2__      |0000580e|   T  |            NOTYPE|00000012|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2296
+malloc              |00005820|   T  |              FUNC|00000138|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+free                |00005958|   T  |              FUNC|00000112|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+realloc             |00005a6a|   T  |              FUNC|000001b8|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+memcmp              |00005c22|   T  |              FUNC|0000001a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+memcpy              |00005c3c|   T  |              FUNC|00000012|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strchr              |00005c4e|   T  |              FUNC|00000016|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strcmp              |00005c64|   T  |              FUNC|00000012|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strcpy              |00005c76|   T  |              FUNC|0000000e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strncpy             |00005c84|   T  |              FUNC|0000001e|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+fputs               |00005ca2|   T  |              FUNC|00000052|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+sscanf              |00005cf4|   T  |              FUNC|00000036|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+putval              |00005d2a|   t  |              FUNC|00000018|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+mulacc              |00005d42|   t  |              FUNC|00000046|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+skip_spaces         |00005d88|   t  |              FUNC|0000002c|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+conv_int            |00005db4|   t  |              FUNC|0000010a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+conv_brk            |00005ebe|   t  |              FUNC|0000019a|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+vfscanf             |00006058|   T  |              FUNC|00000216|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+strchr_P            |0000626e|   T  |              FUNC|00000016|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+fgetc               |00006284|   T  |              FUNC|00000078|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+ungetc              |000062fc|   T  |              FUNC|00000030|     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__do_global_dtors   |0000632c|   T  |            NOTYPE|00000014|     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2496
+_exit               |0000632c|   T  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2496
+exit                |0000632c|   W  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2496
+__stop_program      |00006342|   t  |            NOTYPE|        |     |.text	/home/admin/Arduino/toolchain-avr-special-master/gcc-build/avr/avrxmega4/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+__data_load_start   |00006344|   A  |            NOTYPE|        |     |*ABS*
+_etext              |00006344|   T  |            NOTYPE|        |     |.text	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:822
+__data_load_end     |00006626|   A  |            NOTYPE|        |     |*ABS*
+__stack             |00007fff|   W  |            NOTYPE|        |     |*ABS*
+__RODATA_PM_OFFSET__|00008000|   A  |            NOTYPE|        |     |*ABS*
+__TEXT_REGION_LENGTH__|00020000|   A  |            NOTYPE|        |     |*ABS*
+__DATA_REGION_ORIGIN__|00804000|   A  |            NOTYPE|        |     |*ABS*
+__data_start        |00804000|   D  |            NOTYPE|        |     |.data
+urc_parse_state     |00804000|   d  |            OBJECT|00000002|     |.data
+intFunc             |00804002|   d  |            OBJECT|0000000e|     |.data	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:58
+__malloc_heap_end   |00804010|   D  |            OBJECT|00000002|     |.data
+__malloc_heap_start |00804012|   D  |            OBJECT|00000002|     |.data
+__malloc_margin     |00804014|   D  |            OBJECT|00000002|     |.data
+digital_pin_to_timer|0080406e|   d  |            OBJECT|00000029|     |.data	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/variants/48pin-standard/pins_arduino.h:485
+digital_pin_to_port |00804097|   d  |            OBJECT|00000029|     |.data	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/variants/48pin-standard/pins_arduino.h:334
+digital_pin_to_bit_position|008040c0|   d  |            OBJECT|00000029|     |.data	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/variants/48pin-standard/pins_arduino.h:380
+digital_pin_to_bit_mask|008040e9|   d  |            OBJECT|00000029|     |.data	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/variants/48pin-standard/pins_arduino.h:433
+vtable for KNNNode  |00804112|   d  |            OBJECT|00000008|     |.data
+CSWTCH.5            |0080411a|   d  |            OBJECT|00000004|     |.data
+CSWTCH.23           |0080411e|   d  |            OBJECT|00000008|     |.data
+vtable for HardwareSerial|00804126|   d  |            OBJECT|00000012|     |.data
+vtable for TwoWire  |00804138|   d  |            OBJECT|00000012|     |.data
+vtable for KNNClassifier|0080414a|   d  |            OBJECT|00000008|     |.data
+__bss_start         |008042e2|   B  |            NOTYPE|        |     |.bss
+__data_end          |008042e2|   D  |            NOTYPE|        |     |.data
+_edata              |008042e2|   D  |            NOTYPE|        |     |.data
+ring_line_activity  |008042e2|   b  |            OBJECT|00000001|     |.bss
+modem_is_in_power_save|008042e3|   b  |            OBJECT|00000001|     |.bss
+intFunc_F           |008042e4|   b  |            OBJECT|00000010|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:50
+intFunc_E           |008042f4|   b  |            OBJECT|00000010|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:47
+intFunc_D           |00804304|   b  |            OBJECT|00000010|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:44
+intFunc_C           |00804314|   b  |            OBJECT|00000010|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:41
+intFunc_B           |00804324|   b  |            OBJECT|00000010|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:38
+intFunc_A           |00804334|   b  |            OBJECT|00000010|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/WInterrupts.c:35
+pit_triggered       |00804344|   b  |            OBJECT|00000001|     |.bss
+power_save_mode     |00804345|   b  |            OBJECT|00000001|     |.bss
+urc_data_buffer     |00804346|   b  |            OBJECT|00000180|     |.bss
+urc_data_buffer_length|008044c6|   b  |            OBJECT|00000002|     |.bss
+urc_current_callback|008044c8|   b  |            OBJECT|00000002|     |.bss	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:161
+urc_index           |008044ca|   b  |            OBJECT|00000001|     |.bss
+urc_identifier_buffer|008044cb|   b  |            OBJECT|0000001c|     |.bss
+urc_identifier_buffer_length|008044e7|   b  |            OBJECT|00000002|     |.bss
+tx_tail_index       |008044e9|   b  |            OBJECT|00000002|     |.bss
+tx_buffer           |008044eb|   b  |            OBJECT|00000200|     |.bss
+tx_head_index       |008046eb|   b  |            OBJECT|00000002|     |.bss
+tx_num_elements     |008046ed|   b  |            OBJECT|00000002|     |.bss
+sleepStack          |008046ef|   b  |            OBJECT|00000001|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/twi.c:33
+panic               |008046f0|   b  |            OBJECT|00000001|     |.bss	/home/mrmemory/Documents/VoltValet/anomalydetector/anomalydetector.ino:25
+charging            |008046f1|   b  |            OBJECT|00000001|     |.bss	/home/mrmemory/Documents/VoltValet/anomalydetector/anomalydetector.ino:24
+durationLow         |008046f2|   b  |            OBJECT|00000004|     |.bss	/home/mrmemory/Documents/VoltValet/anomalydetector/anomalydetector.ino:18
+durationHigh        |008046f6|   b  |            OBJECT|00000004|     |.bss	/home/mrmemory/Documents/VoltValet/anomalydetector/anomalydetector.ino:17
+got_timezone        |008046fa|   b  |            OBJECT|00000001|     |.bss
+is_connected        |008046fb|   b  |            OBJECT|00000001|     |.bss
+connected_to_broker |008046fc|   b  |            OBJECT|00000001|     |.bss
+initialized         |008046fd|   b  |            OBJECT|00000001|     |.bss
+shutdown_error_code |008046fe|   b  |            OBJECT|00000002|     |.bss
+got_shutdown_callback|00804700|   b  |            OBJECT|00000001|     |.bss
+wait_for_urc_buffer |00804701|   b  |            OBJECT|00000180|     |.bss
+wait_for_urc_buffer_size|00804881|   b  |            OBJECT|00000002|     |.bss
+got_wait_for_urc_callback|00804883|   b  |            OBJECT|00000001|     |.bss
+urcs                |00804884|   b  |            OBJECT|00000140|     |.bss
+rx_head_index       |008049c4|   b  |            OBJECT|00000002|     |.bss
+timingStruct        |008049c6|   b  |            OBJECT|00000004|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/wiring.c:120
+SequansController   |008049ca|   b  |            OBJECT|00000001|     |.bss	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/sequans_controller.cpp:203
+rx_buffer           |008049cb|   b  |            OBJECT|00000200|     |.bss
+rx_tail_index       |00804bcb|   b  |            OBJECT|00000002|     |.bss
+rx_num_elements     |00804bcd|   b  |            OBJECT|00000002|     |.bss
+Wire1               |00804bcf|   b  |            OBJECT|00000119|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:1003
+Wire                |00804ce8|   b  |            OBJECT|00000119|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/libraries/Wire/src/Wire.cpp:998
+guard variable for SequansControllerClass::instance()::instance|00804e01|   b  |            OBJECT|00000008|     |.bss
+guard variable for SecurityProfileClass::instance()::instance|00804e09|   b  |            OBJECT|00000008|     |.bss
+guard variable for MqttClientClass::instance()::instance|00804e11|   b  |            OBJECT|00000008|     |.bss
+guard variable for LteClass::instance()::instance|00804e19|   b  |            OBJECT|00000008|     |.bss
+guard variable for LowPowerClass::instance()::instance|00804e21|   b  |            OBJECT|00000008|     |.bss
+Serial3             |00804e29|   b  |            OBJECT|00000093|     |.bss	/home/mrmemory/.arduino15/packages/DxCore/hardware/megaavr/1.5.11/cores/dxcore/UART3.cpp:106
+Log                 |00804ebc|   b  |            OBJECT|00000004|     |.bss	/home/mrmemory/Arduino/libraries/AVR-IoT-Cellular/src/log.cpp:53
+guard variable for HttpClientClass::instance()::instance|00804ec0|   b  |            OBJECT|00000008|     |.bss
+ECC608Class::instance()::instance|00804ec8|   b  |            OBJECT|00000001|     |.bss
+guard variable for ECC608Class::instance()::instance|00804ec9|   b  |            OBJECT|00000008|     |.bss
+anomKNN             |00804ed1|   b  |            OBJECT|0000000a|     |.bss	/home/mrmemory/Documents/VoltValet/anomalydetector/anomalydetector.ino:22
+p                   |00804edb|   b  |            OBJECT|00000002|     |.bss
+__brkval            |00804edd|   B  |            OBJECT|00000002|     |.bss
+__flp               |00804edf|   B  |            OBJECT|00000002|     |.bss
+__bss_end           |00804ee1|   B  |            NOTYPE|        |     |.bss
+_end                |00804ee1|   N  |            NOTYPE|        |     |.comment
+__heap_start        |00804ee1|   N  |            NOTYPE|        |     |.comment
+__eeprom_end        |00810000|   N  |            NOTYPE|        |     |.comment
