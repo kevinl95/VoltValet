@@ -11,7 +11,7 @@ Parameters:
 Outputs:
   ConnectURL:
     Description: URL to paste into your code for the AVR-IoT Cellular Mini.
-    Value: !Sub "https://${ApiGatewayRestApi}.execute-api.us-east-2.amazonaws.com/prod/charger"
+    Value: !Sub "${ApiGatewayRestApi}.execute-api.us-east-2.amazonaws.com"
   TopicARN:
     Description: ARN to paste into your code for the AVR-IoT Cellular Mini.
     Value: !Ref SNSTopic
