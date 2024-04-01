@@ -1,5 +1,5 @@
 /**
- * @brief This example demonstrates how to retrieve the unix time from a NTP
+ * @brief KNN classifier for notifying a user about anomalous readings from their EV charger.
  * server.
  */
 
