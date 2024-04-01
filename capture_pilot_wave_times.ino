@@ -3,7 +3,6 @@
  */
 
 #include <Arduino.h>
-#include <http_client.h>
 #include <led_ctrl.h>
 #include <log.h>
 

@@ -47,45 +47,45 @@ void setup() {
     Log.raw("\n");
 
     // add examples to KNN
-    float example1[] = { 1.0, 815.0 };
-    float example2[] = { 1.0, 818.0 };
-    float example3[] = { 1.0, 820.0 };
-    float example4[] = { 1.0, 808.0 };
-    float example5[] = { 1.0, 802.0 };
-    float example6[] = { 1.0, 804.0 };
-    float example7[] = { 1.0, 803.0 };
-    float example8[] = { 1.0, 195.0 };
-    float example9[] = { 0.0, 194.0 };
-    float example10[] = { 0.0, 196.0 };
-    float example11[] = { 0.0, 198.0 };
-    float example12[] = { 0.0, 197.0 };
-    float example13[] = { 0.0, 188.0 };
-    float example14[] = { 0.0, 187.0 };
-    float example15[] = { 0.0, 191.0 };
-    float example16[] = { 0.0, 190.0 };
-    float example17[] = { 1.0, 772.0 };
-    float example18[] = { 1.0, 769.0 };
-    float example19[] = { 1.0, 770.0 };
+    float example1[] = { 815.0, 815.0 };
+    float example2[] = { 818.0, 818.0 };
+    float example3[] = { 820.0, 820.0 };
+    float example4[] = { 808.0, 808.0 };
+    float example5[] = { 802.0, 802.0 };
+    float example6[] = { 804.0, 804.0 };
+    float example7[] = { 803.0, 803.0 };
+    float example8[] = { 195.0, 195.0 };
+    float example9[] = { 194.0, 194.0 };
+    float example10[] = { 196.0, 196.0 };
+    float example11[] = { 198.0, 198.0 };
+    float example12[] = { 197.0, 197.0 };
+    float example13[] = { 188.0, 188.0 };
+    float example14[] = { 187.0, 187.0 };
+    float example15[] = { 191.0, 191.0 };
+    float example16[] = { 190.0, 190.0 };
+    float example17[] = { 772.0, 772.0 };
+    float example18[] = { 769.0, 769.0 };
+    float example19[] = { 770.0, 770.0 };
 
-    anomKNN.addExample(example1, 800); // add example for class 1, or high
-    anomKNN.addExample(example2, 800); // add example for class 1, or high
-    anomKNN.addExample(example3, 800); // add example for class 1, or high
-    anomKNN.addExample(example4, 800); // add example for class 1, or high
-    anomKNN.addExample(example5, 800); // add example for class 1, or high
-    anomKNN.addExample(example6, 800); // add example for class 1, or high
-    anomKNN.addExample(example7, 800); // add example for class 1, or high
-    anomKNN.addExample(example17, 800); // add example for class 1, or high
-    anomKNN.addExample(example18, 800); // add example for class 1, or high
-    anomKNN.addExample(example19, 800); // add example for class 1, or high
-    anomKNN.addExample(example8, 190); // add example for class 0, or low
-    anomKNN.addExample(example9, 190); // add example for class 0, or low
-    anomKNN.addExample(example10, 190); // add example for class 0, or low
-    anomKNN.addExample(example11, 190); // add example for class 0, or low
-    anomKNN.addExample(example12, 190); // add example for class 0, or low
-    anomKNN.addExample(example13, 190); // add example for class 0, or low
-    anomKNN.addExample(example14, 190); // add example for class 0, or low
-    anomKNN.addExample(example15, 190); // add example for class 0, or low
-    anomKNN.addExample(example16, 190); // add example for class 0, or low
+    anomKNN.addExample(example1, 800); // add example for 800, or LOW
+    anomKNN.addExample(example2, 800); // add example for 800, or LOW
+    anomKNN.addExample(example3, 800); // add example for 800, or LOW
+    anomKNN.addExample(example4, 800); // add example for 800, or LOW
+    anomKNN.addExample(example5, 800); // add example for 800, or LOW
+    anomKNN.addExample(example6, 800); // add example for 800, or LOW
+    anomKNN.addExample(example7, 800); // add example for 800, or LOW
+    anomKNN.addExample(example17, 800); // add example for 800, or LOW
+    anomKNN.addExample(example18, 800); // add example for 800, or LOW
+    anomKNN.addExample(example19, 800); // add example for 800, or LOW
+    anomKNN.addExample(example8, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example9, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example10, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example11, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example12, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example13, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example14, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example15, 190); // add example for 190, or HIGH
+    anomKNN.addExample(example16, 190); // add example for 190, or HIGH
 
     // Get and print out the KNN count
     Log.raw("\tanomKNN.getCount() = ");
@@ -123,7 +123,7 @@ void loop() {
     float highinput[] = {1.0, durationHigh};
     int classification = anomKNN.classify(highinput, 2); // classify input with K=2
     float confidence = anomKNN.confidence();
-    if (classification != 800) {
+    if (classification != 190) {
       highanomaly = true;
     }
     if (confidence < threshold) {
@@ -136,7 +136,7 @@ void loop() {
     float lowinput[] = {0.0, durationLow};
     int classification = anomKNN.classify(lowinput, 2); // classify input with K=2
     float confidence = anomKNN.confidence();
-    if (classification != 190) {
+    if (classification != 800) {
       lowanomaly = true;
     }
     if (confidence < threshold) {
